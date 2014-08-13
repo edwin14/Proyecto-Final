@@ -9,7 +9,7 @@ public class WebApp extends AbstractAnnotationConfigDispatcherServletInitializer
    @Override
     protected String[] getServletMappings(){
       return new String[]{
-          "/servicios/*"
+          "/restaurante/*"
       } ; 
     }
     @Override

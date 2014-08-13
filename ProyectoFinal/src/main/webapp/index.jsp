@@ -19,7 +19,7 @@
         <script>
         
         
-  $.getJSON("http://localhost:8093/maven-spring-hibernate/servicios/cliente",function(result){
+  $.getJSON("http://localhost:8093/maven-spring-hibernate/restaurante/cliente",function(result){
     $.each(result, function(i, campo){
       $("div").append("<li>"+campo.nombre + "</li> ");
     });
